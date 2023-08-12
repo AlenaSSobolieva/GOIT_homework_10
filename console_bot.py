@@ -1,6 +1,5 @@
 ADDRESS_BOOK = {}
 
-
 def input_error(inner):
     def wrap(*args):
         try:
@@ -91,7 +90,6 @@ def main():
 
         if result == 'Good buy!':
             break
-
 
 
 if __name__ == '__main__':
